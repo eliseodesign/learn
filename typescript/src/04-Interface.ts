@@ -20,7 +20,7 @@ function getBook():Book{
 const mybook = getBook()
 
 
-// Extender
+// Podemos Extender una interfeace 
 interface Person{
   id:number;
   names:string;

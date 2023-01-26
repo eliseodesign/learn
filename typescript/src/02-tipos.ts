@@ -22,7 +22,6 @@ let tuplaPlayer:[string, number, string, boolean]; // Tuple
 tuplaPlayer = ["a", 2, "true", true] // como un array pero sabes cuantos y que tipo contiene 
 // si asignamos un tipo de datos que no corresponde dará error 
 
-
 // INFERENCIA DE TIPOS
 let numero = 33 // ts infiere el tipo de dato 
 let lastName:"Arévalo" // string

@@ -10,6 +10,7 @@ REQUISITOS
 - Instalado:
   - Node
   - vsCode 
+  - Recomendado: Extención Quokka en vsCode
 
 - Instalar typescript con `npm install -g typescript`
 
