@@ -1,0 +1,33 @@
+#list{
+  margin: .8em;
+  width: 100%;
+
+  width: 100%;
+  max-width: 500px;
+  border: 2px solid #eee;
+  border-radius: .8em;
+  overflow: hidden;
+}
+
+
+#list .note{
+  width: 100%;
+  background: rgba(0, 0, 0, 0.164);
+
+  padding: 1em;
+}
+
+
+
+#list .note button{
+  color: #eee;
+  padding: .3em .6em;
+  margin-top: .5em;
+  border-radius: .3em;
+  background: rgba(192, 59, 59, 0.288);
+}
+
+#list .note button:hover{
+  cursor: pointer;
+  background: rgba(192, 59, 59, 0.753);
+}

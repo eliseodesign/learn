@@ -1,0 +1,33 @@
+#form{
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0 0 0 ;
+  width: 100%;
+  max-width: 500px;
+}
+
+#form input{
+  padding: .6em;
+  margin: .4em;
+  border-radius: 1em;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.281);
+  color: rgb(50, 255, 245);
+}
+#form input::placeholder{
+  color: #ddd;
+}
+
+#form button{
+  width: 100%;
+  max-width: 200px;
+  margin: 1em auto;
+  padding: .5em 1em;
+  border-radius: 1em;
+}
+#form button:hover{
+  cursor: pointer;
+  transform: scale(.98);
+  background: #ccc;
+}

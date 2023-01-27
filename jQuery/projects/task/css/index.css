@@ -1,0 +1,19 @@
+@import url("./form.css");
+@import url("./list.css");
+*{
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding-top: 1em;
+  font-family: sans-serif;
+  background: rgb(25, 25, 51);
+  color: #eee;
+
+  display: grid;
+  place-items: center;
+}
+
+
