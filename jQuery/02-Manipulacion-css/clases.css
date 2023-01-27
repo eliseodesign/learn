@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  font-family: sans-serif;
+}
+.header{
+  background: #259;
+  height: 60px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  user-select: none;
+  cursor: pointer;
+  transition:background .1s ease-in ;
+}
+
+.header.select{
+  background: #fff;
+  color: #259;
+  outline: #259 2px solid;
+}
