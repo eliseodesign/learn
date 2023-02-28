@@ -20,7 +20,10 @@ function toBinary(number:number):string{
   return binary.reverse().join("")
 }
 
-console.log(toBinary(13))
+
+
+
+console.log(toBinary(62))
 
 
 function toDecimal(number:number ){
@@ -36,4 +39,4 @@ function toDecimal(number:number ){
 }
 
 
-console.log(toDecimal(1101))
+// console.log(toDecimal())
