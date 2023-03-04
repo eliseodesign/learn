@@ -1,0 +1,21 @@
+# carpeta bin y obj
+bin/
+obj/
+
+# archivos de respaldo creados por Visual Studio
+*.bak
+*~
+
+# archivos de configuración local
+.vs/
+.vscode/
+*.suo
+*.user
+*.vshost.*
+*.csproj.user
+
+# NuGet
+packages/
+*.nupkg
+debug/
+release/
