@@ -4,22 +4,23 @@ namespace Operadores{
   {
     public void Operar()
     {
-      Console.BackgroundColor = ConsoleColor.DarkMagenta;
-      Console.ForegroundColor = ConsoleColor.White;
+      Console.BackgroundColor = ConsoleColor.DarkGray;
+      Console.ForegroundColor = ConsoleColor.Blue;
       Console.WriteLine("ingrese a:");
-      string linea = Console.ReadLine();
+      int a = int.Parse(Console.ReadLine());
+      System.Console.WriteLine("a = " + a + " y es " + (a%2==0 ? "par" : "impar"));
 
-      int a = int.Parse(linea);
       Console.WriteLine("ingrese b:");
-      linea = Console.ReadLine();
-      int b = int.Parse(linea);
+      int b = int.Parse(Console.ReadLine());
+      System.Console.WriteLine("b = " + b + " y es " + (b%2==0 ? "par" : "impar"));
+
 
       Console.WriteLine("suma:" + (a + b));
       Console.WriteLine("resta:" + (a - b));
       Console.WriteLine("multiplicación:" + (a * b));
       Console.WriteLine("división:" + (a / b));
 
-      Console.Read();
+      
     }
   }
 }
