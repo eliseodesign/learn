@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Operadores;
 using NumPrimo;
+using ArrNumber;
 namespace HelloWorld
 {
   class Program
@@ -22,6 +23,11 @@ namespace HelloWorld
         System.Console.WriteLine("( " + actual + " )");
       }
 
+
+      int[] array = {1,2,3,4};
+      arrOperar arr = new arrOperar();
+      var resultadoArr = arr.sumarArr(array);
+      System.Console.WriteLine(resultadoArr);
       Console.ReadLine();
     }
   }
