@@ -1,7 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using Operadores;
-using NumPrimo;
-using ArrNumber;
+using Basicos;
 namespace HelloWorld
 {
   class Program
@@ -13,7 +11,7 @@ namespace HelloWorld
 
       int number = int.Parse(Console.ReadLine());
 
-      Primo primoI = new Primo();
+      NumeroPrimo primoI = new NumeroPrimo();
       var primoFunct = primoI.esPrimo(number);
       System.Console.WriteLine(primoFunct.Item1);
 
@@ -25,10 +23,10 @@ namespace HelloWorld
 
 
       int[] array = {1,2,3,4};
-      arrOperar arr = new arrOperar();
+      OperarArray arr = new OperarArray();
       var resultadoArr = arr.sumarArr(array);
       System.Console.WriteLine(resultadoArr);
       Console.ReadLine();
     }
   }
-}
+} 

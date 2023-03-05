@@ -1,5 +1,5 @@
-namespace ArrNumber{
-    public class arrOperar{
+namespace Basicos{
+    public class OperarArray{
     // Crea un método que reciba un array de enteros y devuelva la suma de todos ellos.
 
     public int sumarArr(int[] numeros){
@@ -25,6 +25,17 @@ namespace ArrNumber{
       int promedio = acumulador/numeros.Length;
 
       return promedio;
+    }
+
+
+    public bool find(int[] numeros, int num){
+      foreach(int number in numeros){
+        if(number == num){
+          return true;
+        }
+      }
+      
+      return false;
     }
    
   }

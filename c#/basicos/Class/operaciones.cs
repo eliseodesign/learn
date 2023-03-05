@@ -1,5 +1,5 @@
 using System;
-namespace Operadores{
+namespace Basicos{
     public class Operaciones
   {
     public void Operar()

@@ -1,6 +1,6 @@
-namespace NumPrimo{
+namespace Basicos{
 
-  public class Primo{
+  public class NumeroPrimo{
 
     public (bool, List<int>) esPrimo(int num){
 
