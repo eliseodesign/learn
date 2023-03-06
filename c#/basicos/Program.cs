@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using Basicos;
+﻿using Basicos;
 namespace HelloWorld
 {
   class Program
@@ -22,11 +21,13 @@ namespace HelloWorld
       }
 
 
-      int[] array = {1,2,3,4};
+      int[] array = {4,3,3,4};
       OperarArray arr = new OperarArray();
       var resultadoArr = arr.sumarArr(array);
       System.Console.WriteLine(resultadoArr);
-      Console.ReadLine();
+      Console.ReadKey();
+
+      Arrays.crear("Eliseo", "Arévalo");
     }
   }
 } 
